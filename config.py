@@ -45,15 +45,15 @@ OWNER_ID = int(getenv("OWNER_ID", 7403621976))
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
+HEROKU_APP_NAME = "darwin04"
 # ----------------------------------------------------------------
-HEROKU_API_KEY = getenv("HEROKU_API_KEY")
+HEROKU_API_KEY = "HRKU-852706f4-8cba-4108-912f-e6b0f4a788a8"
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TEAMPURVI/SONALI",
+    "https://github.com/cookies2002/Darwin",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -64,8 +64,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/PURVI_SUPPORT")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/PURVI_UPDATES")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Flash_Network_II")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/Flash_Network_II")
 # ------------------------------------------------------------------------------
 # ------------------------------------------------------------------------------
 
@@ -131,13 +131,13 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/eb31c20889c5fca9e153f.jpg, https://telegra.ph/file/62a4a5c93f78df95a7d61.jpg, https://telegra.ph/file/af1b9fb2c83194a37c44d.jpg"
+    "START_IMG_URL", "https://envs.sh/rEw.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/9cevdg.jpg"
+    "PING_IMG_URL", "https://envs.sh/r2A.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/i493lf.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/i0qmgf.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/rw8.jpg"
+STATS_IMG_URL = "https://envs.sh/r2j.jpg"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/8e3552aa743ffdb6f18c9.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
