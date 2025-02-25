@@ -309,9 +309,17 @@ class YouTubeAPI:
                 "postprocessors": [
                     {
                         "key": "FFmpegExtractAudio",
-                        "preferredcodec": "mp3",
-                        "preferredquality": "192",
+                        "preferredcodec": "libmp3lame",  
+                        "preferredquality": "320",
+                        "audio_bitrate": "512k",    
+                        "audio_channels": 2,
+                        "audio_sample_rate": "44100",
+                        "buffer_size": "1024",
+                        "codec_options": {
+                            "vbr": 0,
+                            "preset": "extreme",
                     }
+                  }
                 ],
                 "cookiefile": cookies_file,  # Add cookie file option here
             }
