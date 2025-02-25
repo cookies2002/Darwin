@@ -1,8 +1,8 @@
 import asyncio
 from pyrogram.enums import ChatType, ChatMemberStatus
-from JioSavaan import app
+from PURVIMUSIC import app
 from pyrogram import filters
-from JioSavaan.utils.Shukla_ban import admin_filter
+from PURVIMUSIC.utils.Shukla_ban import admin_filter
 
 
 
