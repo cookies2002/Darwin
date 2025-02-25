@@ -1,5 +1,5 @@
 from pyrogram import filters
-from JioSavaan.utils.admin_check import admin_check
+from PURVIMUSIC.utils.admin_check import admin_check
 
 
 USE_AS_BOT = True
